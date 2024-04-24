@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(210, 210, 210);
+}
+/* banner */
+#banner{
+    display: flex;
+}
+
+#bannerImagem1{
+    width: 30%;
+}
+
+#bannerImagem2{
+    width: 70%;
+}
+
+/* cabecalho */
+#cabecalho{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    /* margin: 0px 20px; */
+}
+
+/* textos */
+#textos{
+    display: flex;
+}
+
+.tituloTextos{
+    width: 95%;
+    background-color: black;
+    color: white;
+    padding: 10px 2.5%;
+}
+
+#textos p, #textos h5{
+    margin: 20px;
+}
+
+#servicos{
+    width: 75%;
+}
+
+#agenda{
+    width: 25%;
+}
+
+/* mensagem */
+#mensagem{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#mensagem p{
+    margin-left: 20px;
+}
+
+/* rodape */
+
+#rodape{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: black;
+    color: white;
+}
+
+#rodape p{
+    margin-left: 20px;
+}
+
+/* mapa */
+#mapa{
+    padding: 5px 0px;
+    margin: 20px 20px;
+    background-color: rgb(191, 191, 191);
+}
